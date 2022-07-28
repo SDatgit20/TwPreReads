@@ -6,7 +6,7 @@ function callbackForForEachandMap(num){
  
 //foreach() method is used to perform operations/function on each array element
  
-function forEachImplementation(nums,callbackForForEach){
+function forEachImplementation(nums,callbackForForEachandMap){
     for(let i=0;i<nums.length;i++){
         nums[i]=callbackForForEachandMap(nums[i]);
     }
@@ -15,7 +15,7 @@ function forEachImplementation(nums,callbackForForEach){
 
 // map method calls a function once for each element and doesn't change the original array. It returns an array
  
-function mapImplementation(nums,callback){
+function mapImplementation(nums,callbackForForEachandMap){
     const twiceNums=[];
     for(let i=0;i<nums.length;i++){
         twiceNums[i]=callbackForForEachandMap(nums[i]); //sets the twice of number
